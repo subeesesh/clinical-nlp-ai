@@ -1,0 +1,57 @@
+PATIENT CLINICAL NOTE
+=====================
+Date: 2024-03-08
+Patient ID: PT-006
+Age: 48 | Gender: Female
+
+CHIEF COMPLAINT:
+Symmetric joint pain, swelling, and severe morning stiffness in hands and
+wrists lasting more than 1 hour each morning for the past 4 months.
+
+HISTORY OF PRESENT ILLNESS:
+Patient presents with a 4-month history of progressive joint pain affecting
+the fingers, wrists, and ankles symmetrically. Morning stiffness lasts
+approximately 90 minutes before joints loosen up. She reports significant
+fatigue, reduced grip strength, and difficulty with fine motor tasks such
+as buttoning shirts or opening jars. Two joints on the right hand appear
+visibly swollen. She notes her symptoms are worse in cold weather.
+
+SYMPTOMS REPORTED:
+- Joint pain (bilateral, symmetric — fingers, wrists, ankles)
+- Morning stiffness (duration >60 minutes)
+- Swollen joints (MCP and PIP joints, right hand predominantly)
+- Reduced range of motion in wrists
+- Fatigue (persistent, not relieved by rest)
+- Warmth and redness over affected joints
+- Reduced grip strength
+- Occasional low-grade fever
+- Loss of appetite
+
+CURRENT MEDICATIONS:
+- Ibuprofen 400mg (taken PRN — partial relief only)
+
+PAST MEDICAL HISTORY:
+No prior joint disease. No recent infections or trauma.
+Sister diagnosed with rheumatoid arthritis at age 40.
+
+INVESTIGATIONS:
+- RF (Rheumatoid Factor): Positive (1:160)
+- Anti-CCP antibody: Positive (82 U/mL — elevated)
+- ESR: 68 mm/hr (elevated)
+- CRP: 34 mg/L (elevated)
+- X-ray hands: Early periarticular osteopenia, no erosions yet
+
+VITALS:
+Temp: 37.4°C | BP: 118/76 mmHg | HR: 78 bpm
+
+ASSESSMENT:
+Rheumatoid Arthritis — early-moderate stage.
+Positive serology (RF + Anti-CCP) with characteristic symmetric inflammatory arthritis.
+
+PLAN:
+- Start methotrexate 7.5mg weekly (DMARD therapy)
+- Folic acid supplementation
+- Hydroxychloroquine to be considered if inadequate response
+- Physiotherapy for joint mobility
+- Rheumatology follow-up in 6 weeks
+- Baseline LFTs and CBC before methotrexate

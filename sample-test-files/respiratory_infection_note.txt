@@ -1,0 +1,58 @@
+PATIENT CLINICAL NOTE
+=====================
+Date: 2024-01-20
+Patient ID: PT-004
+Age: 34 | Gender: Female
+
+CHIEF COMPLAINT:
+Productive cough, high fever, and difficulty breathing persisting for 7 days
+with no improvement on over-the-counter medications.
+
+HISTORY OF PRESENT ILLNESS:
+Patient presents with a 7-day history of worsening productive cough with
+thick green mucus. Fever began 5 days ago, peaking at 39.4°C. She describes
+significant difficulty breathing, wheezing audible to family members, and
+chest pain that worsens with deep inspiration. She has nasal congestion,
+runny nose, and sore throat. Chills and rigors present for 3 days.
+
+SYMPTOMS REPORTED:
+- Productive cough (green/yellow mucus)
+- High fever (39.4°C / 103°F)
+- Difficulty breathing (dyspnea on exertion and at rest)
+- Wheezing (audible)
+- Chest pain (pleuritic — worsens on inspiration)
+- Chills and rigors
+- Nasal congestion and runny nose
+- Sore throat
+- Fatigue and body aches
+- Loss of appetite
+- Mild headache
+
+CURRENT MEDICATIONS:
+- Paracetamol 500mg (over-the-counter, taken PRN)
+- No prescribed medications
+
+MEDICAL HISTORY:
+Mild asthma (well-controlled, no recent exacerbations).
+No prior hospitalization for respiratory illness.
+
+INVESTIGATIONS:
+- Chest X-ray: Consolidation in right lower lobe — consistent with pneumonia
+- SpO2: 93% on room air (borderline)
+- WBC: 14,200 (elevated — bacterial infection likely)
+- CRP: 87 mg/L (elevated)
+
+VITALS:
+Temp: 39.1°C | HR: 102 bpm | RR: 22/min | SpO2: 93%
+
+ASSESSMENT:
+Community-acquired pneumonia (CAP), right lower lobe.
+Bronchitis component also present. Moderate severity.
+
+PLAN:
+- Amoxicillin 875mg twice daily for 7 days
+- Bronchodilator (salbutamol inhaler) for wheezing
+- Increase fluid intake
+- Rest and monitoring
+- Return if SpO2 drops below 92% or symptoms worsen
+- Follow-up chest X-ray in 6 weeks

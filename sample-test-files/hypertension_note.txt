@@ -1,0 +1,49 @@
+PATIENT CLINICAL NOTE
+=====================
+Date: 2024-04-02
+Patient ID: PT-002
+Age: 61 | Gender: Female
+
+CHIEF COMPLAINT:
+Persistent headaches, dizziness, and elevated blood pressure readings at home
+for the past 6 weeks.
+
+HISTORY OF PRESENT ILLNESS:
+Patient reports self-monitoring blood pressure at home, recording consistent
+readings above 155/98 mmHg over the past 6 weeks. She describes throbbing
+headaches primarily in the occipital region, most severe in the mornings.
+Episodes of dizziness are occurring 3–4 times per week. She also reports
+occasional nosebleeds and blurred vision during peak BP episodes.
+
+SYMPTOMS REPORTED:
+- High blood pressure (average 160/100 mmHg on home monitor)
+- Persistent headache (occipital, morning onset)
+- Dizziness and lightheadedness
+- Occasional nosebleeds (epistaxis)
+- Blurred vision during high BP episodes
+- Palpitations at rest
+- Fatigue and reduced exercise tolerance
+- Chest tightness on exertion
+- Neck pain
+
+CURRENT MEDICATIONS:
+Patient was previously prescribed antihypertensives (lisinopril 5mg) 2 years ago
+but discontinued due to dry cough side effect. No current medications.
+
+FAMILY HISTORY:
+Father deceased — stroke at age 67 (history of hypertension).
+Older brother on antihypertensives for 10 years.
+
+VITALS:
+BP: 164/102 mmHg | Heart Rate: 88 bpm | SpO2: 97%
+
+ASSESSMENT:
+Stage 2 Hypertension. High cardiovascular risk given family history.
+Antihypertensives to be restarted with close BP monitoring.
+
+PLAN:
+- Start amlodipine 5mg daily
+- Low-sodium diet counseling
+- Stress reduction strategies
+- Follow-up in 4 weeks with BP log
+- ECG to rule out cardiac involvement

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clinical NLP Diagnosis Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+
+<div class="app-shell">
+
+  <!-- ═══════════════════════════════ HEADER ═════════════════════════════════ -->
+  <header>
+    <div class="header-logo">
+      <div class="logo-pulse">🩺</div>
+      <div class="header-text">
+        <h1>Clinical NLP Diagnosis Assistant</h1>
+        <p>AI-powered medical note analysis &amp; disease prediction</p>
+      </div>
+    </div>
+    <div class="header-badges">
+      <span class="pill pill-teal">⚡ ML Powered</span>
+      <span class="pill pill-blue">🧬 NLP</span>
+      <span class="pill pill-green" id="status-pill">● Connecting…</span>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ═══════════════════════════ INPUT PANEL ════════════════════════════ -->
+    <aside class="input-panel">
+
+      <!-- Clinical note textarea -->
+      <div>
+        <div class="section-label">📋 Clinical Note</div>
+        <div class="note-wrapper">
+          <textarea
+            id="note-input"
+            placeholder="Type or paste a clinical note here…
+
+e.g. Patient reports frequent urination, fatigue, and high blood sugar levels. Blood glucose consistently above 200 mg/dL."
+          ></textarea>
+          <span class="char-count" id="char-count">0 chars</span>
+        </div>
+      </div>
+
+      <!-- Error display -->
+      <div class="error-toast" id="error-toast" role="alert"></div>
+
+      <!-- File upload -->
+      <div>
+        <div class="section-label">📄 Upload .txt File</div>
+        <div class="upload-zone" id="upload-zone" role="button" tabindex="0" aria-label="Upload clinical note file">
+          <span class="upload-icon">📂</span>
+          <span class="upload-title">Click or drag a .txt file here</span>
+          <span class="upload-sub">Plain-text clinical notes only</span>
+          <span id="file-name"></span>
+          <input type="file" id="file-input" accept=".txt" aria-hidden="true" />
+        </div>
+      </div>
+
+      <!-- Quick examples -->
+      <div>
+        <div class="section-label">⚡ Quick Examples</div>
+        <div class="examples">
+
+          <button class="example-chip"
+            data-note="Patient reports frequent urination, fatigue, and high blood sugar levels. Blood glucose consistently above 200 mg/dL. Blurred vision and unexplained weight loss noted. Insulin resistance suspected.">
+            <span class="chip-icon">🍬</span>
+            <span class="chip-text">
+              <span class="chip-label">Diabetes</span>
+              Frequent urination, fatigue, high blood sugar
+            </span>
+          </button>
+
+          <button class="example-chip"
+            data-note="Patient has persistent high blood pressure readings above 140/90 mmHg. Complains of headaches, dizziness, and occasional nosebleeds. Family history of hypertension. Currently on antihypertensives.">
+            <span class="chip-icon">💉</span>
+            <span class="chip-text">
+              <span class="chip-label">Hypertension</span>
+              High BP, headaches, dizziness, nosebleeds
+            </span>
+          </button>
+
+          <button class="example-chip"
+            data-note="Chest pain radiating to the left arm, sweating, and shortness of breath. EKG shows abnormalities. Elevated troponin levels detected. History of myocardial infarction.">
+            <span class="chip-icon">❤️</span>
+            <span class="chip-text">
+              <span class="chip-label">Heart Disease</span>
+              Chest pain, sweating, shortness of breath
+            </span>
+          </button>
+
+          <button class="example-chip"
+            data-note="Patient has productive cough, high fever, wheezing, and difficulty breathing for 5 days. Suspected pneumonia with chills and chest pain while breathing. Mucus present.">
+            <span class="chip-icon">🫁</span>
+            <span class="chip-text">
+              <span class="chip-label">Respiratory Infection</span>
+              Cough, fever, wheezing, difficulty breathing
+            </span>
+          </button>
+
+          <button class="example-chip"
+            data-note="Severe headache, high fever, stiff neck, and sensitivity to light. Patient shows nuchal rigidity and altered consciousness. Bacterial meningitis suspected.">
+            <span class="chip-icon">🧠</span>
+            <span class="chip-text">
+              <span class="chip-label">Meningitis</span>
+              Stiff neck, high fever, photophobia
+            </span>
+          </button>
+
+          <button class="example-chip"
+            data-note="Burning sensation during urination, frequent urge to urinate, and cloudy urine. Pelvic pain and lower back pain reported. Blood in urine noted. UTI suspected.">
+            <span class="chip-icon">🔬</span>
+            <span class="chip-text">
+              <span class="chip-label">Urinary Tract Infection</span>
+              Burning urination, urinary urgency, pelvic pain
+            </span>
+          </button>
+
+        </div>
+      </div>
+
+      <!-- Analyze button -->
+      <button class="btn-analyze" id="analyze-btn" aria-label="Analyze clinical note">
+        <div class="spinner" id="spinner" aria-hidden="true"></div>
+        <span id="btn-label">🔬 Analyze Clinical Note</span>
+      </button>
+
+      <p class="shortcut-hint">or press <kbd>Ctrl</kbd> + <kbd>Enter</kbd></p>
+
+    </aside>
+
+    <!-- ═══════════════════════════ RESULTS PANEL ══════════════════════════ -->
+    <section class="results-panel" id="results-panel" aria-live="polite">
+
+      <!-- Empty state -->
+      <div class="empty-state" id="empty-state">
+        <div class="empty-icon-wrap">🧬</div>
+        <h3>No Analysis Yet</h3>
+        <p>Enter a clinical note on the left and click <strong>Analyze</strong> to receive an AI-powered diagnosis prediction.</p>
+        <div class="empty-steps">
+          <div class="step"><span class="step-num">1</span> Type or paste a clinical note</div>
+          <div class="step"><span class="step-num">2</span> Or upload a .txt file</div>
+          <div class="step"><span class="step-num">3</span> Click Analyze (or Ctrl+Enter)</div>
+          <div class="step"><span class="step-num">4</span> Review the AI diagnosis report</div>
+        </div>
+      </div>
+
+      <!-- Results (shown after analysis) -->
+      <div id="results-content" style="display:none;">
+
+        <!-- ── Diagnosis card ── -->
+        <div class="card" id="card-diagnosis">
+          <div class="card-header">
+            <span class="icon">🏥</span>
+            <h3>Predicted Diagnosis</h3>
+            <span class="pill pill-teal" style="font-size:0.68rem; padding:2px 8px;">Primary</span>
+          </div>
+
+          <div class="diagnosis-grid">
+            <div>
+              <div class="diagnosis-label">Most Likely Condition</div>
+              <div class="diagnosis-name" id="diagnosis-name">—</div>
+            </div>
+            <div class="confidence-block">
+              <div class="confidence-pct" id="confidence-pct">—%</div>
+              <div class="confidence-sub">Confidence</div>
+            </div>
+          </div>
+
+          <div class="conf-bar-wrap">
+            <div class="conf-bar-meta">
+              <span>Model Confidence</span>
+              <span id="conf-pct-label">—</span>
+            </div>
+            <div class="conf-bar">
+              <div class="conf-bar-fill" id="conf-bar-fill"></div>
+            </div>
+            <div class="conf-level-wrap" id="conf-level-wrap">
+              <div class="conf-dot" id="conf-dot"></div>
+              <span class="conf-level-text" id="conf-level-text">—</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ── Medical Entities card ── -->
+        <div class="card" id="card-entities">
+          <div class="card-header">
+            <span class="icon">🔍</span>
+            <h3>Detected Medical Entities</h3>
+          </div>
+
+          <div class="entity-section">
+            <div class="entity-title">
+              🔴 Symptoms
+              <span class="entity-count" id="symptom-count">0</span>
+            </div>
+            <div class="tags" id="symptoms-tags">
+              <span class="no-entities">None detected</span>
+            </div>
+          </div>
+
+          <div class="entity-section">
+            <div class="entity-title">
+              💊 Medications
+              <span class="entity-count" id="medication-count">0</span>
+            </div>
+            <div class="tags" id="medications-tags">
+              <span class="no-entities">None detected</span>
+            </div>
+          </div>
+
+          <div class="entity-section">
+            <div class="entity-title">
+              🟡 Mentioned Conditions
+              <span class="entity-count" id="condition-count">0</span>
+            </div>
+            <div class="tags" id="conditions-tags">
+              <span class="no-entities">None detected</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ── Probability distribution card ── -->
+        <div class="card" id="card-probs">
+          <div class="card-header">
+            <span class="icon">📊</span>
+            <h3>Disease Probability Distribution</h3>
+          </div>
+          <div class="prob-list" id="prob-list"></div>
+        </div>
+
+        <!-- ── Disclaimer ── -->
+        <div class="disclaimer">
+          <span class="disc-icon">⚠️</span>
+          <p>
+            <strong>Medical Disclaimer:</strong> This tool is for <strong>educational and research purposes only</strong>.
+            It is not a substitute for professional medical advice, diagnosis, or treatment.
+            Always consult a qualified and licensed healthcare provider for medical decisions.
+          </p>
+        </div>
+
+      </div><!-- /results-content -->
+    </section>
+
+  </main>
+</div><!-- /app-shell -->
+
+<script src="script.js"></script>
+</body>
+</html>

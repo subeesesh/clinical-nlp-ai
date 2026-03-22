@@ -1,0 +1,55 @@
+PATIENT CLINICAL NOTE
+=====================
+Date: 2024-05-10
+Patient ID: PT-003
+Age: 67 | Gender: Male
+
+CHIEF COMPLAINT:
+Severe chest pain radiating to the left arm and jaw, accompanied by sweating
+and shortness of breath. Patient brought in by ambulance.
+
+HISTORY OF PRESENT ILLNESS:
+Patient experienced sudden onset of crushing chest pain approximately 45 minutes
+prior to arrival. The pain radiates to the left arm and jaw, rated 9/10 in
+intensity. He reports profuse sweating, shortness of breath, and nausea.
+He has a known history of myocardial infarction 3 years ago.
+
+SYMPTOMS REPORTED:
+- Chest pain (crushing, radiating to left arm and jaw)
+- Shortness of breath (dyspnea at rest)
+- Sweating (diaphoresis)
+- Palpitations and irregular heartbeat
+- Nausea and vomiting
+- Dizziness and lightheadedness
+- Swelling in legs (bilateral pitting edema noted previously)
+- Fatigue on minimal exertion
+- Reduced exercise tolerance over past 2 weeks
+
+CURRENT MEDICATIONS:
+- Aspirin 75mg daily
+- Atorvastatin 40mg daily
+- Clopidogrel 75mg daily
+- Beta-blocker (metoprolol 25mg twice daily)
+
+PAST MEDICAL HISTORY:
+- Myocardial infarction (3 years ago) — stent placed in LAD
+- Hypertension (controlled)
+- Hyperlipidemia
+
+INVESTIGATIONS:
+- EKG: ST-elevation in leads II, III, aVF — inferior STEMI pattern
+- Troponin I: Elevated (4.2 ng/mL — critically high)
+- Chest X-ray: Mild cardiomegaly
+
+VITALS:
+BP: 90/60 mmHg | HR: 112 bpm irregular | SpO2: 91% on room air
+
+ASSESSMENT:
+Acute inferior STEMI. Emergency PCI indicated.
+Coronary artery disease with suspected new occlusion.
+
+PLAN:
+- Immediate cath lab activation
+- IV heparin anticoagulation initiated
+- Cardiology team on standby
+- ICU admission post-procedure

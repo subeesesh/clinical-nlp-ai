@@ -1,0 +1,56 @@
+PATIENT CLINICAL NOTE
+=====================
+Date: 2024-06-05
+Patient ID: PT-007
+Age: 29 | Gender: Female
+
+CHIEF COMPLAINT:
+Burning sensation during urination, urinary urgency, and pelvic pain
+for the past 3 days.
+
+HISTORY OF PRESENT ILLNESS:
+Patient presents with a 3-day history of dysuria (burning sensation during
+urination), frequent urge to urinate with small urine volumes, and pelvic
+discomfort. She reports her urine appears cloudy and has an unusual odor.
+She noticed blood in her urine (hematuria) this morning for the first time.
+She denies fever but reports mild lower back pain on the left side.
+This is her third UTI in the past 12 months.
+
+SYMPTOMS REPORTED:
+- Burning sensation during urination (dysuria)
+- Urinary urgency (strong, frequent urge to urinate)
+- Frequent urination (every 30–40 minutes)
+- Cloudy urine with strong odor
+- Blood in urine (hematuria — observed this morning)
+- Pelvic pain (suprapubic pressure)
+- Lower back pain (left flank — mild)
+- Nocturia (waking 3 times per night)
+- Mild fatigue
+
+CURRENT MEDICATIONS:
+None. No recent antibiotic use in past 3 months.
+
+PAST MEDICAL HISTORY:
+Recurrent urinary tract infections (2 previous episodes this year).
+No kidney disease or structural abnormalities known.
+
+INVESTIGATIONS:
+- Urinalysis: Leukocytes 3+, Nitrites Positive, RBC 2+, WBC >50/hpf
+- Urine Culture: Pending (mid-stream clean catch collected)
+- Urine pH: 6.5
+
+VITALS:
+Temp: 37.1°C | BP: 112/72 mmHg | HR: 74 bpm | SpO2: 99%
+
+ASSESSMENT:
+Uncomplicated recurrent urinary tract infection (UTI).
+No signs of pyelonephritis (no high fever, no systemic sepsis).
+Recurrent pattern warrants further investigation for structural causes.
+
+PLAN:
+- Ciprofloxacin 500mg twice daily for 5 days (pending culture sensitivities)
+- Increase fluid intake (minimum 2.5L water/day)
+- Urine culture follow-up in 48 hours
+- Renal ultrasound to evaluate for structural abnormalities (given recurrence)
+- Consider low-dose prophylactic antibiotic if UTIs continue
+- Advise on hygiene and post-coital voiding practices

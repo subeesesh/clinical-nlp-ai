@@ -1,0 +1,19 @@
+# ── Web Framework ─────────────────────────────────────────────────────────────
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
+pydantic==2.6.4
+
+# ── Machine Learning ───────────────────────────────────────────────────────────
+scikit-learn==1.4.2
+pandas==2.2.1
+numpy==1.26.4
+
+# ── NLP ────────────────────────────────────────────────────────────────────────
+spacy==3.7.4
+# After install: python -m spacy download en_core_web_sm
+
+# ── Deep Learning (optional – used for BERT extension) ────────────────────────
+
+# ── Utilities ──────────────────────────────────────────────────────────────────
+joblib==1.4.0

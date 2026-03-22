@@ -1,0 +1,65 @@
+PATIENT CLINICAL NOTE
+=====================
+Date: 2024-02-28
+Patient ID: PT-005
+Age: 22 | Gender: Male
+
+CHIEF COMPLAINT:
+Sudden onset severe headache, high fever, and stiff neck.
+Brought to ER by roommate due to altered consciousness.
+
+HISTORY OF PRESENT ILLNESS:
+Patient's roommate reports the patient complained of the "worst headache of
+his life" approximately 6 hours ago. Since then, he has developed a high
+fever reaching 40.1°C, stiff neck (nuchal rigidity), and extreme sensitivity
+to light and sound. Over the past 2 hours, he has become increasingly
+confused and difficult to rouse. No recent travel history but attended a
+crowded indoor event 5 days ago.
+
+SYMPTOMS REPORTED:
+- Severe headache (sudden onset, "thunderclap")
+- High fever (40.1°C / 104.2°F)
+- Stiff neck (nuchal rigidity — confirmed on exam)
+- Sensitivity to light (photophobia)
+- Sensitivity to sound (phonophobia)
+- Altered consciousness / confusion
+- Nausea and vomiting
+- Rash (non-blanching petechial rash on trunk — noted on exam)
+- Chills
+
+CURRENT MEDICATIONS:
+None.
+
+PAST MEDICAL HISTORY:
+No significant past medical history. Vaccinated as a child.
+Meningococcal vaccine status unknown.
+
+NEUROLOGICAL EXAM:
+- GCS: 12/15 (E3V4M5)
+- Kernig's sign: Positive
+- Brudzinski's sign: Positive
+- Pupils: Equal and reactive, 4mm bilaterally
+- Neck stiffness: Severe — chin-to-chest impossible
+
+INVESTIGATIONS:
+- CT Head: No contraindication to lumbar puncture
+- Lumbar Puncture ordered — pending
+- WBC: 18,500 (markedly elevated)
+- CRP: 210 mg/L (critically elevated)
+
+VITALS:
+Temp: 40.1°C | HR: 118 bpm | BP: 98/64 mmHg | SpO2: 96%
+
+ASSESSMENT:
+Bacterial meningitis — high clinical suspicion.
+Classic triad present: fever + neck rigidity + altered consciousness.
+Non-blanching rash raises concern for meningococcal septicemia.
+
+PLAN:
+- EMERGENCY: IV ceftriaxone 2g initiated immediately (do not delay for LP)
+- IV dexamethasone 0.15mg/kg to reduce inflammation
+- Blood cultures before antibiotics if possible
+- Isolation precautions — droplet
+- Neurology and Infectious Disease consult
+- ICU transfer
+- Notify public health for contact tracing

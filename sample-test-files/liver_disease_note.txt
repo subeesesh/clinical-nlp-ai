@@ -1,0 +1,64 @@
+PATIENT CLINICAL NOTE
+=====================
+Date: 2024-07-14
+Patient ID: PT-008
+Age: 55 | Gender: Male
+
+CHIEF COMPLAINT:
+Yellowing of skin and eyes, dark urine, abdominal swelling, and persistent
+fatigue for 2 weeks.
+
+HISTORY OF PRESENT ILLNESS:
+Patient noticed progressive yellowing of his skin and sclera (whites of eyes)
+over the past 2 weeks. His urine has turned dark brown, and his stool has
+become pale/clay-colored. He reports significant right upper quadrant pain
+and abdominal swelling that has worsened over the past week. He has lost
+approximately 5 kg in the past month without intentional dieting. He has a
+20-year history of heavy alcohol consumption (approximately 6–8 units/day).
+He recently stopped drinking 3 weeks ago.
+
+SYMPTOMS REPORTED:
+- Jaundice (yellowing of skin and sclera)
+- Dark urine (tea-colored)
+- Pale/clay-colored stools
+- Right upper quadrant pain (dull, constant)
+- Abdominal swelling (visible distension — ascites suspected)
+- Fatigue (severe, unable to carry out daily tasks)
+- Nausea and loss of appetite
+- Unintentional weight loss (5 kg in 1 month)
+- Itching (pruritus) over trunk and limbs
+- Mild confusion (reported by wife — encephalopathy concern)
+
+CURRENT MEDICATIONS:
+None prescribed. Occasional paracetamol use for pain.
+
+SOCIAL HISTORY:
+Heavy alcohol use for 20 years. Recently abstinent.
+Non-smoker. No IV drug use. No recent travel.
+
+INVESTIGATIONS:
+- ALT: 312 U/L (elevated — 8x normal)
+- AST: 289 U/L (elevated)
+- Bilirubin (total): 7.8 mg/dL (elevated)
+- Albumin: 2.4 g/dL (low)
+- PT/INR: 1.9 (prolonged — impaired synthesis)
+- Ultrasound Abdomen: Enlarged liver with heterogeneous echo texture,
+  moderate ascites, splenomegaly
+- AFP: 12 ng/mL (mildly elevated — hepatocellular carcinoma to be excluded)
+
+VITALS:
+Temp: 37.8°C | BP: 104/68 mmHg | HR: 96 bpm | SpO2: 97%
+
+ASSESSMENT:
+Alcoholic liver disease — decompensated cirrhosis with jaundice and ascites.
+Hepatic encephalopathy early stage cannot be excluded.
+HCC screening required given AFP elevation.
+
+PLAN:
+- Admit for monitoring and management
+- IV furosemide and spironolactone for ascites management
+- Lactulose for encephalopathy prevention
+- Thiamine supplementation
+- Hepatology urgent referral
+- Liver biopsy and MRI liver for HCC evaluation
+- Abstinence counseling and addiction support referral

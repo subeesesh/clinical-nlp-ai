@@ -1,0 +1,45 @@
+PATIENT CLINICAL NOTE
+=====================
+Date: 2024-03-15
+Patient ID: PT-001
+Age: 52 | Gender: Male
+
+CHIEF COMPLAINT:
+Patient presents with excessive thirst, frequent urination, and persistent fatigue
+lasting approximately 3 months.
+
+HISTORY OF PRESENT ILLNESS:
+The patient reports polyuria and polydipsia with urination occurring up to 10 times
+per day including nocturia. He describes extreme fatigue that interferes with daily
+activities. He has noticed unexplained weight loss of approximately 8 kg over the
+past 2 months despite normal appetite.
+
+SYMPTOMS REPORTED:
+- High blood sugar (self-monitored: consistently above 250 mg/dL)
+- Frequent urination (polyuria)
+- Increased thirst (polydipsia)
+- Unexplained weight loss
+- Blurred vision (intermittent)
+- Tingling and numbness in feet
+- Slow wound healing (minor cut on left hand not healing for 3 weeks)
+- Fatigue and weakness
+- Dry mouth
+
+MEDICATIONS:
+None currently. Patient has not sought treatment previously.
+
+FAMILY HISTORY:
+Father diagnosed with Type 2 Diabetes at age 48.
+Mother has hypertension.
+
+ASSESSMENT:
+Strong clinical presentation consistent with uncontrolled Type 2 Diabetes Mellitus.
+HbA1c and fasting glucose levels to be confirmed via lab work.
+Insulin resistance suspected based on symptom profile and family history.
+
+PLAN:
+- Fasting blood glucose test
+- HbA1c measurement
+- Initiate metformin pending lab confirmation
+- Dietary counseling referral
+- Ophthalmology referral for blurred vision

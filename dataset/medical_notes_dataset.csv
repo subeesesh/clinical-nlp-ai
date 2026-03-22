@@ -1,0 +1,59 @@
+text,label
+"Patient reports frequent urination, fatigue, and high blood sugar levels.",Diabetes
+"High blood glucose, increased thirst, and blurred vision noted.",Diabetes
+"Patient experiences polydipsia, polyuria, and unexplained weight loss.",Diabetes
+"Blood sugar levels consistently above 200 mg/dL with fatigue.",Diabetes
+"Tingling in feet, slow wound healing, and frequent infections reported.",Diabetes
+"Patient presents with insulin resistance and high HbA1c levels.",Diabetes
+"Frequent urination at night, dry mouth, and extreme fatigue.",Diabetes
+"Patient reports persistent high blood pressure readings above 140/90.",Hypertension
+"Headaches, dizziness, and elevated systolic pressure observed.",Hypertension
+"Patient on antihypertensives, reports occasional nosebleeds and blurred vision.",Hypertension
+"Elevated diastolic pressure, palpitations, and fatigue.",Hypertension
+"Family history of hypertension; patient shows high BP and shortness of breath.",Hypertension
+"Severe hypertension with BP 160/100, neck pain, and chest tightness.",Hypertension
+"Patient reports headaches and high blood pressure after stressful events.",Hypertension
+"Chest pain radiating to the left arm, sweating, and shortness of breath.",Heart Disease
+"Patient reports palpitations, irregular heartbeat, and swelling in legs.",Heart Disease
+"Coronary artery blockage suspected; fatigue and chest tightness present.",Heart Disease
+"Shortness of breath on exertion and chest discomfort after activity.",Heart Disease
+"EKG abnormalities, elevated troponin levels, and severe chest pain.",Heart Disease
+"Patient has history of myocardial infarction with recurrent chest pressure.",Heart Disease
+"Atrial fibrillation detected with dizziness and reduced exercise tolerance.",Heart Disease
+"Patient has productive cough, fever, and difficulty breathing.",Respiratory Infection
+"Wheezing, runny nose, sore throat, and mild fever for 5 days.",Respiratory Infection
+"Diagnosed with bronchitis; presents with persistent cough and mucus.",Respiratory Infection
+"Pneumonia suspected: high fever, chills, chest pain while breathing.",Respiratory Infection
+"Upper respiratory tract infection with nasal congestion and cough.",Respiratory Infection
+"Patient reports green sputum, low-grade fever, and difficulty breathing.",Respiratory Infection
+"Severe bronchitis with wheezing and prolonged cough lasting two weeks.",Respiratory Infection
+"Patient complains of joint pain, morning stiffness, and swollen joints.",Arthritis
+"Rheumatoid arthritis flare: symmetric joint swelling, fatigue, and pain.",Arthritis
+"Osteoarthritis in knees with reduced range of motion and tenderness.",Arthritis
+"Chronic joint inflammation in fingers, wrists, and ankles.",Arthritis
+"Severe abdominal pain, nausea, vomiting, and loss of appetite.",Gastroenteritis
+"Diarrhea, stomach cramps, dehydration, and low-grade fever reported.",Gastroenteritis
+"Viral gastroenteritis with frequent loose stools and abdominal discomfort.",Gastroenteritis
+"Patient has yellowing of skin, dark urine, and fatigue.",Liver Disease
+"Liver enzymes elevated; patient reports nausea and abdominal swelling.",Liver Disease
+"Jaundice, right upper quadrant pain, and loss of appetite.",Liver Disease
+"Burning sensation during urination, frequent urge to urinate, cloudy urine.",Urinary Tract Infection
+"UTI confirmed: pelvic pain, urinary urgency, and blood in urine.",Urinary Tract Infection
+"Recurrent urinary tract infections with lower back pain and dysuria.",Urinary Tract Infection
+"Patient reports severe headache, high fever, stiff neck, and sensitivity to light.",Meningitis
+"Bacterial meningitis suspected: altered consciousness, fever, and neck rigidity.",Meningitis
+"Photophobia, vomiting, and sudden severe headache with nuchal rigidity.",Meningitis
+"Joint pain and stiffness in the morning affecting multiple joints.",Arthritis
+"Patient has swollen fingers and wrists with inflammatory arthritis.",Arthritis
+"Severe diarrhea and stomach cramps lasting 3 days with vomiting.",Gastroenteritis
+"Abdominal pain, loose stools, and mild fever after food exposure.",Gastroenteritis
+"Jaundice, abdominal swelling, and elevated liver enzymes.",Liver Disease
+"Right upper quadrant pain and dark urine with loss of appetite.",Liver Disease
+"Cloudy urine, pelvic pain, and burning during urination.",Urinary Tract Infection
+"Lower back pain and frequent urge to urinate with dysuria.",Urinary Tract Infection
+"Photophobia, vomiting, and sudden severe headache with stiff neck.",Meningitis
+"Altered consciousness, high fever, and neck rigidity in ER patient.",Meningitis
+"High blood sugar over 250, polyuria, fatigue, and weight loss.",Diabetes
+"Blood pressure 165/100 with persistent headache and vision changes.",Hypertension
+"Palpitations, chest tightness, and exertional dyspnea.",Heart Disease
+"Wheezing, chest congestion, green mucus, and fever of 38.9C.",Respiratory Infection

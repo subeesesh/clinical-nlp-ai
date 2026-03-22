@@ -1,0 +1,62 @@
+PATIENT CLINICAL NOTE
+=====================
+Date: 2024-08-22
+Patient ID: PT-009
+Age: 31 | Gender: Male
+
+CHIEF COMPLAINT:
+Severe diarrhea, vomiting, and abdominal cramping for the past 36 hours
+following a work lunch event.
+
+HISTORY OF PRESENT ILLNESS:
+Patient attended a work catered lunch 2 days ago. Approximately 8 hours
+afterward, he developed sudden onset nausea followed by vomiting (6 episodes).
+He has had watery diarrhea up to 10 times in the past 24 hours with severe
+abdominal cramps. He reports a mild fever of 38.2°C and has been unable to
+keep fluids down. He notes three colleagues who also attended the event have
+similar symptoms. He is showing signs of mild dehydration.
+
+SYMPTOMS REPORTED:
+- Diarrhea (watery, 8–10 episodes per day)
+- Nausea and vomiting (6 episodes in past 24 hours)
+- Severe abdominal pain and stomach cramps
+- Loss of appetite (complete)
+- Low-grade fever (38.2°C)
+- Fatigue and weakness
+- Dizziness on standing (orthostatic)
+- Dry mouth and reduced urine output (dehydration signs)
+- Mild headache
+
+CURRENT MEDICATIONS:
+None. Attempted oral rehydration at home — unable to tolerate.
+
+PAST MEDICAL HISTORY:
+No chronic GI conditions. No recent antibiotics. No IBD.
+
+EPIDEMIOLOGY:
+Likely food poisoning — cluster of cases at same catered event.
+Possible pathogens: Salmonella, Campylobacter, or Staphylococcal toxin.
+
+INVESTIGATIONS:
+- Stool culture: Ordered (pending)
+- Blood tests: WBC 11,800, CRP 28 mg/L (mildly elevated)
+- Electrolytes: Na+ 132 (mildly low), K+ 3.1 (low — due to losses)
+- Urine: Dark, concentrated — oliguria present
+
+VITALS:
+Temp: 38.3°C | HR: 108 bpm | BP: 102/68 mmHg | SpO2: 98%
+Weight: Down 2.5 kg from baseline (fluid loss)
+
+ASSESSMENT:
+Acute viral/bacterial gastroenteritis — likely foodborne illness.
+Mild-moderate dehydration with electrolyte imbalance.
+
+PLAN:
+- IV fluid resuscitation: Normal saline 1L bolus, then maintenance
+- IV potassium replacement
+- Antiemetic: Ondansetron 4mg IV
+- Oral rehydration solution once vomiting controlled
+- Stool culture result awaited — antibiotics on hold unless culture positive
+- Bland BRAT diet when tolerating oral intake
+- Discharge when oral intake stable and vitals normalised
+- Advise to report symptoms to environmental health (possible outbreak)
